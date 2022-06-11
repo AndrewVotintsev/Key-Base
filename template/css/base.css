@@ -1,0 +1,13 @@
+.base table {
+    color: #fff !important;
+}
+
+.form-group {
+    padding-bottom: 18px;
+}
+.error {
+    color: red;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}

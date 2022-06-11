@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} /.*$
+  RewriteCond %{REQUEST_FILENAME} !/index.php$
+  RewriteCond %{REQUEST_FILENAME} !/src/save_new_movies.php$
+  RewriteCond %{REQUEST_FILENAME} !/vendor/
+  RewriteCond %{REQUEST_FILENAME} !/css/
+  RewriteCond %{REQUEST_FILENAME} !/js/
+  RewriteRule ^ /index.php [L]
+</IfModule>

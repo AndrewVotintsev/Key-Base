@@ -1,0 +1,12 @@
+header {
+    background-color: #000;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 52px;
+    color: #FFFFFF;
+    margin: 0;
+}
